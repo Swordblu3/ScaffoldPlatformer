@@ -8,10 +8,10 @@ public class CharacterController2D : MonoBehaviour {
     /// CharacterController2D handles the core logic of the player's:
     /// -States such as: grounded, immune, air jumps lefts, and facing right.
     /// -Properties such as: how many air jumps, jump power, gravity force, movement, and air control
-    /// 
-    /// CharacterController2D is often getting called by other scripts that want to gather/modify information from the player(Ex: PlayerMovement) 
+    ///
+    /// CharacterController2D is often getting called by other scripts that want to gather/modify information from the player(Ex: PlayerMovement)
     /// </summary>
-    
+
     [SerializeField] private float m_JumpForce = 800f;
     [SerializeField] public int m_AirJumps = 0;
     [SerializeField] private float m_FallGravity = 4f;
@@ -29,12 +29,12 @@ public class CharacterController2D : MonoBehaviour {
     private Vector3 m_Velocity = Vector3.zero;
 
     [HideInInspector] public Rigidbody2D m_RigidBody2D;
-    //private Animator animator; //If using animations
+    private Animator animator; //If using animations
 
     void Awake()
     {
         m_RigidBody2D = GetComponent<Rigidbody2D>();
-        //animator = GetComponent<Animator>(); //get animator component
+        animator = GetComponent<Animator>(); //get animator component
     }
 
     void FixedUpdate()
@@ -46,7 +46,7 @@ public class CharacterController2D : MonoBehaviour {
 
     private void Update()
     {
-      
+
     }
 
     //Handles the player movement and their jumping, called in PlayerMovement.cs
@@ -59,12 +59,17 @@ public class CharacterController2D : MonoBehaviour {
 
             m_RigidBody2D.velocity = Vector3.SmoothDamp(m_RigidBody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
+            if (move > 0 || move < 0)
+                animator.SetBool("isRunning", true);
+            else
+                animator.SetBool("isRunning", false);
+
             if (move > 0 && !m_FacingRight)
                 Flip();
-            
+
             else if (move < 0 && m_FacingRight)
                 Flip();
-            
+
         }
 
         JumpGravity(jump);
@@ -89,12 +94,12 @@ public class CharacterController2D : MonoBehaviour {
     {
         if (jump && m_AirJumpsLeft >= 1)
             m_RigidBody2D.velocity = new Vector2(m_RigidBody2D.velocity.x, 0); //resets gravity if player jumps in the air so we the momentum doesnt kill the jump force
- 
+
         if (m_RigidBody2D.velocity.y < 0) //we are falling, therefore increase gravity down
             m_RigidBody2D.velocity += Vector2.up * Physics2D.gravity.y * (m_FallGravity - 1) * Time.deltaTime;
-        
+
         else if (m_RigidBody2D.velocity.y > 0  && !Input.GetButton("Jump"))//Tab Jump
-            m_RigidBody2D.velocity += Vector2.up * Physics2D.gravity.y * (m_FallGravity - 1) * Time.deltaTime; 
+            m_RigidBody2D.velocity += Vector2.up * Physics2D.gravity.y * (m_FallGravity - 1) * Time.deltaTime;
     }
 
     //Turns around the gameObject attach to this script
