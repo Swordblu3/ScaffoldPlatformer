@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// GameManager handles game logic that involves interactions between multiple objects in the scene such as Game Over and current checkPoint location
@@ -9,7 +10,6 @@ public class GameManager : MonoBehaviour {
 
     public GameObject player; //The player GameObject on the scene
     private Transform SpawnPosition; //The location that the player will spawn
-	
     // Use this for initialization
 	void Start () {
         
@@ -35,6 +35,5 @@ public class GameManager : MonoBehaviour {
         yield return new WaitForSeconds(.5f);
         playerHealth.HealDamage(playerHealth.maxHealth);
         player.transform.position = SpawnPosition.position;
-
     }
 }

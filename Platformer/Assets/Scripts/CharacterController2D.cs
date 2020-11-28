@@ -117,7 +117,6 @@ public class CharacterController2D : MonoBehaviour {
         {
             m_RigidBody2D.velocity = new Vector2(m_RigidBody2D.velocity.x, m_JumpForceOnEnemies);
         }
-
     }
 
     //Used by other scripts to check Character status

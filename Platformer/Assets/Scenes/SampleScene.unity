@@ -1718,7 +1718,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5199924, y: -3.1083531, z: -10}
+  m_LocalPosition: {x: -6.519997, y: -3.1083531, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2022,7 +2022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4547596144822794, guid: dda7916924b759248bf4647e57f00af7, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114140910938686034, guid: dda7916924b759248bf4647e57f00af7,
         type: 3}
@@ -2078,7 +2078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4486623513962970, guid: 15a0f4c92ce91a445a42dd3cd398f9c5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 212900273291129902, guid: 15a0f4c92ce91a445a42dd3cd398f9c5,
         type: 3}
@@ -2379,7 +2379,7 @@ Transform:
   m_Children:
   - {fileID: 514316865}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1243212186
 LightingSettings:
@@ -2474,6 +2474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 436640267}
+  health: {fileID: 0}
 --- !u!61 &1490669707
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2883,5 +2884,5 @@ Transform:
   - {fileID: 1023228835}
   - {fileID: 1042415526}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

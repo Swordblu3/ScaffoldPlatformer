@@ -9,7 +9,7 @@ using UnityEngine;
 public class CheckPoint : MonoBehaviour {
 
     public GameManager gameManager;
-
+    public PlayerHealth health;
 	// Use this for initialization
 	void Start () {
 		
