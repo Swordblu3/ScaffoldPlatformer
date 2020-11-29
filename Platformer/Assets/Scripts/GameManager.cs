@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour {
     {
         PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
         StartCoroutine(RestartGame(playerHealth));
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     //Restarts Players health and position with a .5 second delay
