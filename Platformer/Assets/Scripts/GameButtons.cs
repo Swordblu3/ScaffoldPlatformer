@@ -21,6 +21,10 @@ public class GameButtons : MonoBehaviour
     {
         SceneManager.LoadScene("L1");
     }
+    public void Pause()
+    {
+        Time.timeScale = Mathf.Approximately(Time.timeScale, 0.0f) ? 1.0f : 0.0f;
+    }
     public void QuitGame()
     {
         Application.Quit();
