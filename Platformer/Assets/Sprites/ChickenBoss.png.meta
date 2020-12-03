@@ -1,0 +1,757 @@
+fileFormatVersion: 2
+guid: 14493bf0d22c3024fa3a28e64690ff38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6653626678373247231
+    second: ChickenBoss_0
+  - first:
+      213: 5684501346449255492
+    second: ChickenBoss_1
+  - first:
+      213: 8259055372104315938
+    second: ChickenBoss_2
+  - first:
+      213: -1618527951593143430
+    second: ChickenBoss_3
+  - first:
+      213: 7291697133439262816
+    second: ChickenBoss_4
+  - first:
+      213: 586131492884149357
+    second: ChickenBoss_5
+  - first:
+      213: 7889446456929304488
+    second: ChickenBoss_6
+  - first:
+      213: 1444650310645092142
+    second: ChickenBoss_7
+  - first:
+      213: 7549102531883878030
+    second: ChickenBoss_8
+  - first:
+      213: -8147463178161165046
+    second: ChickenBoss_9
+  - first:
+      213: 666885159989682001
+    second: ChickenBoss_10
+  - first:
+      213: -6691222676493247600
+    second: ChickenBoss_11
+  - first:
+      213: -3027652925853059923
+    second: ChickenBoss_12
+  - first:
+      213: -3277328587079627161
+    second: ChickenBoss_13
+  - first:
+      213: 3788637224659034584
+    second: ChickenBoss_14
+  - first:
+      213: -2887029576308169733
+    second: ChickenBoss_15
+  - first:
+      213: -941962846497849324
+    second: ChickenBoss_16
+  - first:
+      213: 6887596540028713643
+    second: ChickenBoss_17
+  - first:
+      213: 9218762154119821178
+    second: ChickenBoss_18
+  - first:
+      213: 6797172151320646765
+    second: ChickenBoss_19
+  - first:
+      213: 7671359232832119764
+    second: ChickenBoss_20
+  - first:
+      213: -3446501286782432958
+    second: ChickenBoss_21
+  - first:
+      213: 6519955816315236228
+    second: ChickenBoss_22
+  - first:
+      213: 543726633109616141
+    second: ChickenBoss_23
+  - first:
+      213: -6485010470863989198
+    second: ChickenBoss_24
+  - first:
+      213: -2614897748308898606
+    second: ChickenBoss_25
+  - first:
+      213: 7804448108054044746
+    second: ChickenBoss_26
+  - first:
+      213: -6134904210876605511
+    second: ChickenBoss_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChickenBoss_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2301
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8ef78263e665c50800000000000000
+      internalID: 6653626678373247231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 2301
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c66585bd763ee40800000000000000
+      internalID: 5684501346449255492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_2
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 2301
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2243f824a1f0e9270800000000000000
+      internalID: 8259055372104315938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_3
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 2301
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7300424765d989e0800000000000000
+      internalID: -1618527951593143430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_4
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 2301
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060a168e8ef413560800000000000000
+      internalID: 7291697133439262816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_5
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 2301
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d647701cc7b522800800000000000000
+      internalID: 586131492884149357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1726
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3cb3a0c1fc7d60800000000000000
+      internalID: 7889446456929304488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_7
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1726
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f88aeadcd6c0410800000000000000
+      internalID: 1444650310645092142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_8
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1726
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86c0f181ccc3c860800000000000000
+      internalID: 7549102531883878030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_9
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1726
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0de02518656eee80800000000000000
+      internalID: -8147463178161165046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_10
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1726
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f1a2b0580414900800000000000000
+      internalID: 666885159989682001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_11
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 1726
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bd4966d600423a0800000000000000
+      internalID: -6691222676493247600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1151
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da43b5384bd9bf5d0800000000000000
+      internalID: -3027652925853059923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_13
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1151
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ec2ea93079482d0800000000000000
+      internalID: -3277328587079627161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_14
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1151
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1af969b71f39430800000000000000
+      internalID: 3788637224659034584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_15
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1151
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3ea1085e53fe7d0800000000000000
+      internalID: -2887029576308169733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_16
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1151
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41041e628c97de2f0800000000000000
+      internalID: -941962846497849324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baafe94af88a59f50800000000000000
+      internalID: 6887596540028713643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_18
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 576
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a777029065f9fef70800000000000000
+      internalID: 9218762154119821178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_19
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 576
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6415a40f08645e50800000000000000
+      internalID: 6797172151320646765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_20
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 576
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d32f51e394267a60800000000000000
+      internalID: 7671359232832119764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_21
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 576
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249086b07519b20d0800000000000000
+      internalID: -3446501286782432958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f26be45498b7a50800000000000000
+      internalID: 6519955816315236228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_23
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06fa65fd74bb8700800000000000000
+      internalID: 543726633109616141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_24
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2369677f55d9006a0800000000000000
+      internalID: -6485010470863989198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_25
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 1
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc441c2a5406bbd0800000000000000
+      internalID: -2614897748308898606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChickenBoss_26
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1
+        width: 597
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e78c5438fe4c60800000000000000
+      internalID: 7804448108054044746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
