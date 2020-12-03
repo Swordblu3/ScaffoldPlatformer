@@ -569,7 +569,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4577981022837350, guid: e5a255ed8cce0e548b8f77659399cf4e, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4577981022837350, guid: e5a255ed8cce0e548b8f77659399cf4e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -610,6 +610,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &360070799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360070797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df351cac54689a4580419b39f2059bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: 2
+  projectile: {fileID: 5938037409834064298, guid: 2ae943ab649e13f4cba363044a7bf6aa,
+    type: 3}
+  snail: {fileID: 2055336552}
 --- !u!1 &381165817 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1560732185758450, guid: e5a255ed8cce0e548b8f77659399cf4e,
@@ -1545,7 +1561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4577981022837350, guid: e5a255ed8cce0e548b8f77659399cf4e, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4577981022837350, guid: e5a255ed8cce0e548b8f77659399cf4e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
