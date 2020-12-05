@@ -6,6 +6,7 @@ TagManager:
   tags:
   - HurtBox
   - HitBox
+  - Music
   layers:
   - Default
   - TransparentFX

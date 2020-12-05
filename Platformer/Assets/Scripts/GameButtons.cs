@@ -4,6 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameButtons : MonoBehaviour
 {
+    private AudioSource audio;
+
+    private void Start()
+    {
+        audio = GameObject.Find("Music").GetComponent<AudioSource>();
+    }
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -28,6 +34,11 @@ public class GameButtons : MonoBehaviour
     public void Pause()
     {
         Time.timeScale = Mathf.Approximately(Time.timeScale, 0.0f) ? 1.0f : 0.0f;
+        audio.mute = true;
+        if (Time.timeScale > 0)
+        {
+            audio.mute = false;
+        }
     }
     public void QuitGame()
     {

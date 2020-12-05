@@ -357,7 +357,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' Write your credits here! Look in inspector to type and format'
+  m_text: 'Jessie Lam - Programmer
+
+
+    Bryan Quach - Programmer
+
+
+    Brian Tu
+    - Programmer
+
+
+    Music Used (Royalty Free):
+
+    Superepic
+
+
+    Aurea Carmina'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da612676790e78e4ba83354c2efea5c8, type: 2}
   m_sharedMaterial: {fileID: 7890385538620271508, guid: da612676790e78e4ba83354c2efea5c8,
@@ -385,8 +400,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -816,8 +831,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -852,7 +867,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -271.39832, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
