@@ -334,9 +334,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.049307138, y: 0.085}
   m_AnchorMax: {x: 0.94986355, y: 0.78183824}
-  m_AnchoredPosition: {x: 1.0681763, y: -1.6799927}
-  m_SizeDelta: {x: 4.0637207, y: 6.775238}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.49279785, y: -2.3346558}
+  m_SizeDelta: {x: 0.98547363, y: 5.0675964}
+  m_Pivot: {x: 0.5, y: 0.5392977}
 --- !u!114 &916865396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,22 +357,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Jessie Lam - Programmer
-
-
-    Bryan Quach - Programmer
-
-
-    Brian Tu
-    - Programmer
-
-
-    Music Used (Royalty Free):
-
-    Superepic
-
-
-    Aurea Carmina'
+  m_text: "Jessie Lam \n- Programmer (not really)/ Chicken animator/sort -of-artist\n\nBryan
+    Quach \n- Programmer/Level Designer\n\nBrian Tu\n- Programmer\n\nMusic Used (Royalty
+    Free):\nSuperepic\nAurea Carmina"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da612676790e78e4ba83354c2efea5c8, type: 2}
   m_sharedMaterial: {fileID: 7890385538620271508, guid: da612676790e78e4ba83354c2efea5c8,
@@ -400,8 +387,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -411,8 +398,8 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_wordSpacing: -60
+  m_lineSpacing: 40
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -837,7 +824,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 4
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
