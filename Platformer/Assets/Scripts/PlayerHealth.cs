@@ -19,6 +19,8 @@ public class PlayerHealth : MonoBehaviour {
     public GameManager gameManager;
     private SpriteRenderer playerSprite;
     private CharacterController2D characterController2D;
+    public GameObject heart;
+    public int count = 0;
 
     void Start () {
         currentHealth = maxHealth; //At start of scene, player gets max health
@@ -69,6 +71,16 @@ public class PlayerHealth : MonoBehaviour {
             {
                 StartCoroutine(BlinkSprite());
                 StartCoroutine(DamageState());
+            }
+        }
+        if (collision.gameObject.tag == "Healing")
+        {
+            count = 1;
+            HealDamage(1);
+            if (count == 1)
+            {
+                Destroy(heart);
+                count = 0;
             }
         }
     }
